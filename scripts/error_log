@@ -1,0 +1,49 @@
+[29-Mar-2014 09:37:14 UTC] PHP Fatal error:  SOAP-ERROR: Encoding: string '
+	#include<stdio.h>
+
+
+int main()
+{
+printf(\x93...' is not a valid utf-8 string in /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php on line 38
+[29-Mar-2014 09:37:14 UTC] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: string '
+	#include<stdio.h>
+
+
+int main()
+{
+printf(\x93...' is not a valid utf-8 string in /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php:38
+Stack trace:
+#0 /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php(38): SoapClient->__call('createSubmissio...', Array)
+#1 /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php(38): SoapClient->createSubmission('msnitr', 'microsoft', '???#include<std...', '11', '', true, false)
+#2 {main}
+  thrown in /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php on line 38
+[29-Mar-2014 09:37:55 UTC] PHP Fatal error:  SOAP-ERROR: Encoding: string '
+
+#include<stdio.h>
+int main()
+{
+printf(\x93...' is not a valid utf-8 string in /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php on line 38
+[29-Mar-2014 09:37:55 UTC] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: string '
+
+#include<stdio.h>
+int main()
+{
+printf(\x93...' is not a valid utf-8 string in /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php:38
+Stack trace:
+#0 /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php(38): SoapClient->__call('createSubmissio...', Array)
+#1 /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php(38): SoapClient->createSubmission('msnitr', 'microsoft', '????#include<st...', '1', '', true, false)
+#2 {main}
+  thrown in /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php on line 38
+[29-Mar-2014 09:38:28 UTC] PHP Fatal error:  SOAP-ERROR: Encoding: string '#include<stdio.h>
+int main()
+{
+printf(\x93...' is not a valid utf-8 string in /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php on line 38
+[29-Mar-2014 09:38:28 UTC] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: string '#include<stdio.h>
+int main()
+{
+printf(\x93...' is not a valid utf-8 string in /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php:38
+Stack trace:
+#0 /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php(38): SoapClient->__call('createSubmissio...', Array)
+#1 /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php(38): SoapClient->createSubmission('msnitr', 'microsoft', '#include<stdio....', '11', '', true, false)
+#2 {main}
+  thrown in /home/rajbdilip/public_html/_addon/codenigma.in/scripts/51check.php on line 38

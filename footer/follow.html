@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>eJournal</title>
+<script type="text/javascript" src="../includes/js/jquery.js"></script>
+<style type="text/css">
+@import url(../includes/css/style.css);
+</style>
+<script src="jquery.js" type="text/javascript"></script>
+<script>
+	$(document).ready(function(){	$("#header").fadeIn();
+									$("#content_rules").fadeIn(700);
+									$("#footer").fadeIn(2000);
+									$("#header_stripe_bottom").fadeIn(700);
+									$("#header_stripe").fadeIn(500);
+									$("#mslogo").fadeIn(500);
+									$("#nit").fadeIn(500);
+									$("#cdlogo").fadeIn(500);
+									$("#g+").fadeIn(500);
+								});
+								
+</script>
+<script>
+		$(document).ready(function() {
+    $("div.panel_button").click(
+
+        function(){ $("div#panel").animate({ height: "360px" }) .animate({
+        height: "350px" }, "fast"); $("div.panel_button").toggle();
+            }); $("div#hide_button").click(function(){
+        $("div#panel").animate({
+            height: "0px"
+ 
+        }, "slow"); 
+      });       
+});
+
+</script>
+<script>
+		$(document).ready(function() {
+    $("div#sign_up").click(
+
+        function(){ $("div#panel").animate({ height: "420px" }) .animate({
+        height: "400px" }, "fast"); 
+            }); $("div#hide_button").click(function(){  $("div#panel").animate({  height: "0px"}, "slow"); 
+      });       
+});</script>
+<script>
+$(document).ready(function(){
+  $("#sign_up").click(function(){
+    $(".border").animate({
+      height:'250px',
+    });
+	
+  });
+});
+</script>
+<script>
+$(document).ready(function(){ $("#sign_up").click(function(){$("#OK").show(),$("#form1").hide(),$("#sign_up").hide(),$("#stay").hide(),$("#remember").hide(),$("#form2").show()}); });
+</script>
+
+<script>
+$(document).ready(function(){  $("input").focus(function(){    $(this).css("background-color","#cccccc");  }); 
+							   $("input").blur (function(){    $(this).css("background-color","#ffffff");  });
+							});
+</script>
+<script>
+		function validate(form) {
+		var e = form.elements;
+
+		/* Your validation code. */
+
+		if(e['password'].value != e['confirm'].value) {	alert('Your passwords do not match. Please type more carefully.'); return false;} return true;}
+		
+		
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49284141-1', 'codenigma.in');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+
+
+<body><div id="header" style="">
+	<div id="mslogo"  style="display:none;"><img src="../includes/img/logo1.png" height="120 px"> <!-- Here comes codeEnIGMA'S LOGO --></div>
+	<div id="nit"  style="display:none;"><img src="../includes/img/nit.png" height="120 px"> <!-- Here comes codeEnIGMA'S LOGO --></div>
+	<div id="cdlogo"  style="display:none;"><img src="../includes/img/cdlogo.png" height="300 px"> <!-- Here comes codeEnIGMA'S LOGO --></div>
+	
+  <br>
+  
+</div>
+ 
+<hr id="header_stripe" style="display:none;"/>
+
+<hr id="header_stripe_bottom"  style="display:none;"/>
+ 
+<div id="content_rules"  style="display:none;">
+<p></p><h2 id="CD_rules">Codenigma - Encash your code</h2><p></p>
+<hr>
+<p id="rules">
+Follow us on : <br>
+<img id="fb_logo" src="../includes/img/fb.png" height="50 px">
+<a id="fb_link" href="https://www.facebook.com/MicrosoftCampusClub">https://www.facebook.com/MicrosoftCampusClub</a>
+</p>
+<br>
+<hr>
+<p id="rules"> Contact us : <br>
+<img id="fb_logo" src="../includes/img/call.png" height="60 px">
+<img id="g+"  src="../includes/img/g+.jpg" height="50 px"> <!-- Here comes codeEnIGMA'S LOGO -->
+<p id="phone_NUM" >Ashish Kumar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +91-8596963437 &nbsp;&nbsp;&nbsp; ash.vtol@gmail.com</p>
+<p id="phone_NUM" >Mayank Kumar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +91-8598052135 &nbsp;&nbsp;&nbsp; cooldmk@gmail.com</p>
+<p id="phone_NUM" >Om Prakash &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +91-8598052135 &nbsp;&nbsp;&nbsp; om.tennislover@gmail.com	</p>
+<p id="phone_NUM" >Smruti Swajalika &nbsp;&nbsp;&nbsp; +91-9178692160 &nbsp;&nbsp;&nbsp; s6swajalika@gmail.com</p>
+
+
+
+</div>
+
+<div id="footer"  style="display:none;">
+<a href="../index.html">Home</a> &nbsp;&nbsp;&nbsp;
+<a href="rules.html">Rules</a>&nbsp;&nbsp;&nbsp;
+<a href="#">Questionnare</a>&nbsp;&nbsp;&nbsp;
+<a href="#">Sponsors</a>&nbsp;&nbsp;&nbsp;
+<a href="#">Follow</a>&nbsp;&nbsp;&nbsp;
+
+</div>
+
+</div>
+</div></body></html>
